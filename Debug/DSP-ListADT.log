@@ -1,0 +1,14 @@
+﻿  Main.cpp
+C:\Users\Jye\Desktop\Code\DSP-ListADT\List.h(128,24): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Jye\Desktop\Code\DSP-ListADT\List.h(127): message : while compiling class template member function 'const T &List<T>::operator [](size_t) const'
+          with
+          [
+              T=std::string
+          ]
+C:\Users\Jye\Desktop\Code\DSP-ListADT\Main.cpp(84): message : see reference to function template instantiation 'const T &List<T>::operator [](size_t) const' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\Jye\Desktop\Code\DSP-ListADT\Main.cpp(25): message : see reference to class template instantiation 'List<std::string>' being compiled
+  DSP-ListADT.vcxproj -> C:\Users\Jye\Desktop\Code\DSP-ListADT\Debug\DSP-ListADT.exe
